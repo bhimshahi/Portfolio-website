@@ -1,0 +1,8 @@
+📁 client/                   (entire folder)
+📁 server/                   (entire folder)
+📁 shared/                   (entire folder)
+📄 package.json
+📄 tsconfig.json
+📄 README.md
+📄 .gitignore
+📄 DEPLOYMENT_GUIDE.md
