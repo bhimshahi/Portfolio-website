@@ -666,7 +666,7 @@
 
     <div class="hero-content">
       <div class="hero-badge">MBBS Student</div>
-      <h1>Bhim Shahi Thakuri</h1>
+      <h1 style="white-space:nowrap; font-weight:800;">Bhim Shahi Thakuri</h1>
       <p class="hero-sub">Studying medicine at <span>KIST Medical College</span>, Lalitpur, Nepal</p>
       <a href="#contact" class="hero-cta">✦ Get in Touch</a>
     </div>
@@ -790,24 +790,17 @@
       <div class="section-rule"></div>
       <div class="gallery-grid" id="galleryGrid">
         <div class="gallery-item">
-          <img src="mem1.jpg" alt="Memory 1" onclick="openLightbox('mem1.jpg')"/>
+          <img src="./mem1.jpg" alt="Memory 1" onclick="openLightbox('./mem1.jpg')"/>
         </div>
         <div class="gallery-item">
-          <img src="mem2.jpg" alt="Memory 2" onclick="openLightbox('mem2.jpg')"/>
+          <img src="./mem2.jpg" alt="Memory 2" onclick="openLightbox('./mem2.jpg')"/>
         </div>
         <div class="gallery-item">
-          <img src="mem3.jpg" alt="Memory 3" onclick="openLightbox('mem3.jpg')"/>
+          <img src="./mem3.jpg" alt="Memory 3" onclick="openLightbox('./mem3.jpg')"/>
         </div>
         <div class="gallery-item">
-          <img src="mem4.jpg" alt="Memory 4" onclick="openLightbox('mem4.jpg')"/>
+          <img src="./mem4.jpg" alt="Memory 4" onclick="openLightbox('./mem4.jpg')"/>
         </div>
-      </div>
-      <div style="margin-top:1.75rem;">
-        <input type="file" id="photoInput" accept="image/*" multiple style="display:none"/>
-        <button class="gallery-upload-btn" onclick="document.getElementById('photoInput').click()">
-          📷 Add Photos
-        </button>
-        <p class="gallery-note">To permanently add photos: place image files in your GitHub repo and update the src paths in the Memories section.</p>
       </div>
     </div>
   </section>
